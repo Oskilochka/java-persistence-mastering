@@ -5,17 +5,16 @@
 3. Performance
 
 ## Business
-
 <br/> *The reason that we’re coding is the goal.*
 
-### DDD
+DDD: 
 
 - Bringing the code close to the business.
 - There are tactical and strategic perspectives
 - Strategic: it’s a business language: Bounded Context, ubiquitous language, context Maps.
 - Tactical: implementation, classes, and modules.
 
-### Patterns
+Patterns: 
 
 - Entities: Anything with continuity through a life cycle and distinctions independent of attributes essential to the
   application’s user.
@@ -25,7 +24,6 @@
 - Repository: is used to access data from persistent stores.
 
 ## Isolation
-
 <br/> *Abstraction can effectively combat complexity and scale because it shrinks problems, and smaller problems are easier to reason about it.*
 
 - Keep the business safe from technology.
@@ -44,17 +42,16 @@ Benefits:
     - DAO
     - Repository
 
-## Disadvantages
+Disadvantages:
 
 - More Work
 - More code to maintain
 - More bugs
 
 ## Performance
-
 <br/> *Object-relational impedance mismatch*
 
-### Take advantage of the database
+Take advantage of the database:
 
 - NoSQL
     - Key-value
@@ -68,4 +65,5 @@ Benefits:
 - CAP
     - PACELC
 
-- ![img.png](img.png)
+
+![img.png](img.png)
